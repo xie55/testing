@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="./jquery-3.2.1.js"></script>        
+  <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+  <title>试卷</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <h1>统一建模语言理论测试</h1>
+    <ul id="list-1">
+      <li>考试科目：统一建模语言</li>
+      <li>时间100分钟</li>
+      <li>得分：100</li>
+    </ul> <br> <br>
+    <ul id="list-2">
+      <li>班级： <input type="text" class="form-control" placeholder="1班"></li>
+      <li>学号: <input type="text" class="form-control" placeholder="001"></li>
+      <li>姓名: <input type="text" class="form-control" placeholder="王小闹"></li>
+    </ul> <br>
+    <h1>一、填空题（每空5分，共30分）</h1>
+    <ul>
+      <li>1.UML的中文全称是：<input type="text" class="form-control" placeholder="xxx"></li>
+      <li>2.对象最突出的特征是：<input type="text" class="form-control" placeholder="xxx"><input type="text" class="form-control" placeholder="xxx"><input type="text" class="form-control" placeholder="xxx"></li>
+    </ul>
+    <h1>二、选择题（每空10分，共20分）</h1>
+    <div class="question">
+      <p>1.UML与软件工程的关系是：</p>
+      <ul>
+        <li>   <input type="radio">(A)UML就是软件工程 </li>
+        <li>   <input type="radio" checked>(B)UML参与到软件工程软件开发的几个阶段</li>
+        <li>   <input type="radio">(C)UML与软件工程无关</li>
+        <li>   <input type="radio">(D)UML是软件工程的一部分</li>
+      </ul>
+      </div>
+    <div class="question">
+        <p>2.Java语言支持：</p>
+        <ul>
+        <li>   <input type="radio"  checked>(A)单继承 </li>
+        <li>   <input type="radio">(B)多继承</li>
+        <li>   <input type="radio">(C)单继承与多继承都支持</li>
+        <li>   <input type="radio">(D)单继承与多继承都不支持</li>
+      </ul>
+      </div>
+      <h1>三、多选题（每空10分，共20分）</h1>
+      <div class="question">
+          <p>1.用例的粒度分为一下哪三种：</p>
+          <ul>
+          <li>   <input type="checkbox"  checked>(A)概述级</li>
+          <li>   <input type="checkbox"  checked>(B)需求及</li>
+          <li>   <input type="checkbox">(C)用户目标级</li>
+          <li>   <input type="checkbox"  checked>(D)子功能级</li>
+        </ul>
+  </div>
+  <div class="question">
+      <p>2.类图由以下哪个部分组成：</p>
+      <ul>
+      <li>   <input type="checkbox"  checked>(A)名称（Name)</li>
+      <li>   <input type="checkbox"  checked>(B)属性（Attribute）</li>
+      <li>   <input type="checkbox"  checked>(C)操作（Operation)</li>
+      <li>   <input type="checkbox">(D)方法（Function)</li>
+    </ul>
+    </div>
+    <h1>四、判断题（每空10分，共20分）</h1>
+    <div class="question">
+        1.用例图只是用来与客户交流和沟通的，用于确定需求 &nbsp&nbsp<input type="radio">√<input type="radio" checked>×<br>
+        1.在状态图中，终止状态在一个状态图中允许存在多个 &nbsp&nbsp<input type="radio"checked>√<input type="radio" checked>×
+    </div>
+    <h1>五、简答题（每题20分,共20分）</h1>
+    <div class="questi0n">
+      1.简述什么是模型以及模型的表现形式：<br>
+      <textarea  cols="100" rows="10">xxx</textarea>
+    </div>
+    <button type="button" class="btn btn-default">计算分数</button>
+</div>
+</body>
+</html>
